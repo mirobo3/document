@@ -5,7 +5,7 @@
 ~~~ 
 git clone https://github.com/mirobo3/mirobo3_3_2020_crane_x7_ros.git
 ~~~
-.gazeboディレクトリに移動する
+~/.gazeboディレクトリに移動する
 ~~~
 rm -rf models
 git clone https://github.com/mirobo3/models.git 
@@ -13,7 +13,7 @@ git clone https://github.com/mirobo3/models.git
 
 
 
-## 使い方
+## 使い方:シミュレーションの場合
 ~~~
 roslaunch crane_x7_gazebo crane_x7_card_stand.launch
 ~~~
